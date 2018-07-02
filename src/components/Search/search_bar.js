@@ -30,7 +30,6 @@ class SearchBar extends Component{
         });
 
         this.props.onSearchTermChange(term);
-        console.log(event.target.value);
     }
 }
 

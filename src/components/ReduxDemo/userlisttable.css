@@ -1,0 +1,6 @@
+.ui-datatable-loader-overlay{
+    z-index: 0 !important;
+}
+.ui-widget-overlay{
+    background: white !important;
+}

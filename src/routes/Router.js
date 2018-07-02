@@ -11,8 +11,8 @@ export default class RootRouter extends Component {
         <Router>
          <div>
            
-          <Route path='/home/youtube' component={YoutubeDemo}/>             
-          <Route path='/home/userlist' component={UserListTable}/>
+          <Route exact path='/home/youtube' component={YoutubeDemo}/>             
+          <Route exact path='/' component={UserListTable}/>
 
            </div> 
            </Router>

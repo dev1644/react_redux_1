@@ -18,6 +18,7 @@ export function* UserDetailsSaga(action) {
   try {
     const response = yield call(getData,action.data,`https://apimychoice.sia.co.in/admin/userlist`);
     const data = response.data;
+    console.log("datainsaga",data)
     // dispatch a success action to the store with the new data
     yield put({ type: GET_USER_LIST_DETAILS_SUCCESS, data });
   } catch (error) {
